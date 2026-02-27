@@ -4,6 +4,7 @@ const caption = document.getElementById("caption");
 const advanceButton = document.getElementById("advance");
 const endOfPath = document.getElementById("endOfPath");
 
+
 // declare in-script objects we might need
 let sceneNumber = 1;
 
@@ -43,3 +44,4 @@ function advanceScene() {
 advanceButton.addEventListener("click", function () {
     advanceScene();
 });
+

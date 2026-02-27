@@ -1,3 +1,42 @@
 .hidden {
     display: none;
 }
+
+* {
+    margin: auto;
+    text-align: center;
+}
+
+#image {
+    max-height: 500px;
+    border-radius: 5px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+
+#endOfPath {
+    padding: 40px;
+}
+
+#caption {
+    margin:15px;
+}
+
+.button {
+    background-color: #bcff6f;
+    border: 3px solid #557443;
+    border-radius: 200px;
+    padding: 30px;
+    width: 200px;
+    color: black;
+    font-size: x-large;
+    margin: 30px;
+}
+
+.button:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+
+.button:disabled {
+    background-color: rgb(255, 128, 111);
+    border: 3px solid #744a43;
+}
